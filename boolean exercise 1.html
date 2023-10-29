@@ -1,9 +1,3 @@
-<!--
-  Your task is to fill in the code inside the isEligibleToVote() function to check if the person's age is greater than or equal to the voting age using boolean logic. For example, you can set the voting age threshold to 18 for this exercise. If the person's age is greater than or equal to 18, the function should return true, indicating that the person is eligible to vote. Otherwise, it should return false.
-
-Once you've filled in the code, you can open the HTML file in a web browser and test the program by entering different ages to see if the person is eligible to vote or not.
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,12 +22,9 @@ Once you've filled in the code, you can open the HTML file in a web browser and 
 
   <script>
     function isEligibleToVote(age) {
-      // Fill in the code here to check if the person is eligible to vote using boolean logic.
-      // The voting age varies by country, so set a voting age threshold (e.g., 18).
-      // Return true if the person's age is greater than or equal to the voting age, and false otherwise.
-
-      // Your code goes here:
-
+      // Check if the person is eligible to vote using boolean logic.
+      // The voting age threshold is set to 18.
+      return age >= 18;
     }
 
     function checkVoterEligibility() {
